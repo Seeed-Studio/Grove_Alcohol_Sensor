@@ -33,7 +33,7 @@
 #define HEATER_SEL	A1
 
 void setup()
-{.
+{
 	Serial.begin(9600);  // open the serial port at 9600 bps
 	pinsInit();
 	switchOnHeater();
@@ -62,7 +62,7 @@ void pinsInit()
 {
 	pinMode(HEATER_SEL,OUTPUT);// set the HEATER_SEL as digital output.
 	switchOffHeater(); //when HEATER_SEL is set, heater is switched off.
-	pinMode(ALCOHOL_DAT,INTPUT);
+	pinMode(ALCOHOL_DAT,INPUT);
 }
 /*switch on the heater of Alcohol sensor*/
 void switchOnHeater()
