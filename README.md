@@ -1,4 +1,4 @@
-Grove_Alcohol_Sensor
+Grove_Alcohol_Sensor  [![Build Status](https://travis-ci.com/Seeed-Studio/Grove_Alcohol_Sensor.svg?branch=master)](https://travis-ci.com/Seeed-Studio/Grove_Alcohol_Sensor)
 ---------------------------------------------------------
 
 [![image](http://www.seeedstudio.com/depot/bmz_cache/6/6d12ac0d0c0b70dd6f38c5a78cf833b7.image.530x397.jpg)](http://www.seeedstudio.com/depot/Grove-Alcohol-Sensor-p-764.html)
