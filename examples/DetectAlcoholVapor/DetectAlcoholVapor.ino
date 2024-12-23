@@ -32,6 +32,12 @@
 #define ALCOHOL_DAT A0
 #define HEATER_SEL	A1
 
+#ifdef NRF52840_XXAA
+#ifdef USE_TINYUSB
+#include <Adafruit_TinyUSB.h>
+#endif
+#endif
+
 void setup() {
     Serial.begin(9600);  // open the serial port at 9600 bps
     pinsInit();
